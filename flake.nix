@@ -21,6 +21,10 @@
             ruby_3_3
             go
           ];
+          
+          shellHook = ''
+            unset DEVELOPER_DIR
+          '';
         };
       });
 }

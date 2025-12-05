@@ -3,3 +3,11 @@
 !jest.config.js
 node_modules
 dist/
+
+# Elixir/Mix
+/_build/
+/deps/
+*.ez
+*.beam
+.elixir_ls/
+erl_crash.dump

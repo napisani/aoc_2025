@@ -60,7 +60,7 @@ func (d *Dial) Count() int {
 
 func main() {
 	ticks := 50
-	fileName := "/Users/nick/code/aoc_2025/input/day1.txt"
+	fileName := "../input/day1.txt"
 	file, err := os.Open(fileName)
 	if err != nil {
 		panic(err)
