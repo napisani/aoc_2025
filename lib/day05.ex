@@ -22,5 +22,3 @@ defmodule Day05 do
   end
 end
 
-# Run the solution
-Day05.solve()
